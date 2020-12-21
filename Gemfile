@@ -32,6 +32,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Added required gem: NoMethodError: assert_template has been extracted to a gem. To continue using it, add `gem 'rails-controller-testing'` to your Gemfile.
+gem 'rails-controller-testing'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
